@@ -1,0 +1,75 @@
+{
+  "LAYERS": [
+    {
+      "geomType": 0,
+      "layerId": "ClippedSmoothElev_41b52ad1_f124_49ed_8404_c58b57ceb0f2",
+      "name": "ClippedSmoothElev",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "SmoothedElev_a05de9e1_0c20_459f_8da3_82f2f07ae5d8",
+      "name": "SmoothedElev",
+      "properties": {
+        "checkBox_Clip": false,
+        "checkBox_Frame": true,
+        "checkBox_Shading": true,
+        "checkBox_Sides": false,
+        "checkBox_Surroundings": false,
+        "checkBox_TransparentBackground": false,
+        "checkBox_Visible": true,
+        "colorButton_Color": "0x000000",
+        "comboBox_ClipLayer": null,
+        "comboBox_TextureSize": 100,
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_ImageFile": "",
+        "radioButton_MapCanvas": true,
+        "spinBox_Opacity": 100,
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3,
+        "toolButton_SideColor": "0xccbbaa"
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "ResampledElev_31502792_854c_4d36_807a_266e5616666b",
+      "name": "ResampledElev",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "TroutPassElev_6d51f8f2_d994_4fa8_bd96_8eb39eaef0de",
+      "name": "TroutPassElev",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "FLAT",
+      "name": "Flat Plane",
+      "properties": {
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Shading": true,
+        "checkBox_Sides": true,
+        "checkBox_Surroundings": false,
+        "checkBox_TransparentBackground": false,
+        "checkBox_Visible": true,
+        "colorButton_Color": "0x000000",
+        "comboBox_ClipLayer": null,
+        "comboBox_TextureSize": 100,
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_ImageFile": "",
+        "radioButton_MapCanvas": true,
+        "spinBox_Opacity": 100,
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3,
+        "toolButton_SideColor": "0xccbbaa"
+      },
+      "visible": false
+    }
+  ]
+}
