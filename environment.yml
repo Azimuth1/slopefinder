@@ -1,0 +1,14 @@
+name: slopefinder
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - gdal
+  - geopandas
+  - matplotlib
+  - numpy
+  - pandas
+  - elevation
+  - rasterio
+  - flask
